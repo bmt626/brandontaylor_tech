@@ -2,6 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'BrandonTaylor.tech'
 theme = 'ananke'
+copyright = 'Brandon Taylor'
 [params]
     show_reading_time = true
     site_logo = "/images/site_logo_white.png"
