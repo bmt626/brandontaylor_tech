@@ -1,9 +1,8 @@
 ---
 title: "Updating your password policy to force passphrases"
 date: 2022-05-25T15:09:53-04:00
+featured_image: 'four-word.png'
 ---
-![](four-word.png)
-
 I have recently begun looking at some of the security policies in orgs especially pertaining to passwords. I noticed that typically passwords have to be at least 8 characters and contain a mix of upper and lowercase, numbers, and special chars, but all of those are not required in all environments. In addition to that passwords are set to expire every 3 months. Some environments take this a step further and will remember your last X amount of passwords, this prevents you from using the same few passwords on a cycle. Say this number is 10, any of the last 10 passwords you have used can not be used again this leads to users having a list of 11 passwords they cycle through when they hit number 11 they will start back over at 1 when that dread password reset time comes calling. While this may have been sufficient in the past that is not the case anymore. Almost daily it seems there is a new breach and leaked credentials are everywhere I am willing to bet that there are users in a majority of orgs that have a password that has been involved in a leak as their password today. This has led me to a new idea I purposed to some end users to get a feel of how it would be received by them.
 Before I dive into how I presented my proposal to the users here is the policy I was going to present 
 - A minimum of 20 characters
@@ -23,6 +22,7 @@ I then elaborated on this by explaining the trick was to use passphrases. Passph
 - The CyberSecurity dept made me have this long passw0rd!
 
 Some examples of a string of words are as follows thanks to [useapassphrase.com](https://www.useapassphrase.com/)
+![](four-word.png)
 
 - reformist bankbook kennel swoop
 - coming pyramid hence silo grew
