@@ -1,6 +1,6 @@
 ---
 title: "apt-key deprication"
-featured_image:'featured.png'
+featured_image: 'featured.png'
 date: 2022-06-10T09:17:22-04:00
 ---
 
