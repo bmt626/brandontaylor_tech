@@ -32,14 +32,15 @@ You will get a warning that apt-key is deprecated but as long as you get no othe
 
 Now we need to update the apt source for the repo to use the new key the sources for apt are stored in /etc/apt/sources.list.d/
 ![](ls-apt.png)
-for me, I am looking for metasploit-framework.list
+
+For me, I am looking for metasploit-framework.list
 
 Open the source in your text editor of choice  with sudo and add the signed-by tag pointing to the key in the keyring folder
 
 original source
 ![](source-before.png)
 
-for me, it will look like this
+In my case, it will look like this
 
 ```
 deb [signed-by=/usr/share/keyrings/metasploit.gpg] http://downloads.metasploit.com/data/releases/metasploit-framework/apt lucid main
