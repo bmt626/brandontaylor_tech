@@ -110,7 +110,9 @@ Ok now that the sidebar is over and we have a better understanding of how arrays
 
 The macro is taking a[i] and XORing it against i then converting that to a chr and storing it in b along with everything else that was already contained in b to give us a final string.
 
-**For a great explainer on xor check out this [Gary Explains Video](https://www.youtube.com/watch?v=3Kvv7VEM3uc) he does a way better job than I could in this format.**
+*For a great explainer on xor check out this [Gary Explains Video](https://www.youtube.com/watch?v=3Kvv7VEM3uc) he does a way better job than I could in this format.*
+
+**UPDATE - this video ([XOR & the Half Adder](https://www.youtube.com/watch?v=VPw9vPN-3ac)) did an amazing job explaning the xor math and made everything click for me I highly recommend checking out the [Computerphile YouTube Channel](https://www.youtube.com/user/Computerphile) their content is great at explaining complext concepts in a way that makes it easy to understand!**
 
 So we will do the same but first, we need to know how to xor in python. In python, the xor operator is the carrot symbol (^)
 
@@ -139,3 +141,5 @@ I saved my example as macro.py. You can then call it by calling python3 macro.py
 I hoped this helped you learn something. This was my first time analyzing a word macro before and it was definitely fun. If this interests you, I suggest checking out [John Hammond's YouTube](https://www.youtube.com/c/JohnHammond010) his videos really helped me understand the thought process when it comes to reversing macros and malware, which led to me being able to accomplish this task and complete this room.
 
 [https://tryhackme.com/room/mrphisher](https://tryhackme.com/room/mrphisher)
+
+Updated on 7/1/22 added links to Computerphile's YT
