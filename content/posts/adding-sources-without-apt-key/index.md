@@ -64,5 +64,5 @@ Congratulations you are done the last two commands are just as they are original
 * *`gpg --dearmour` ensures that the key is converted to a gpg file format 
 * add the `[signed-by=/usr/share/keyrings/key.gpg]` to the source list so apt knows what key is used to authorize the source now that it is not stored in the apt-key list (`/etc/apt/trusted.gpg`)
 * if they key is already a gpg formatted key you could just use `sudo tee /usr/share/keyrings/key.gpg` the dearmor command if for converting pgp keys. **There is no harm in using `gpg --dearmor` for every key which is why I used it since it is much more consistent**
-*  Also you may notice in the last bullet I said `gpg --dearmor` instead of `gpg --dearmour` while writing this up I learned that both are valid commands *apparently when I originally learned this for my apt-key article on existing repo conversion I got some of my knowledge from someone not located In the US as we always have to do things differently here*  ¯\_(ツ)_/¯
+*  Also you may notice in the last bullet I said `gpg --dearmor` instead of `gpg --dearmour` while writing this up I learned that both are valid commands *apparently when I originally learned this for my apt-key article on existing repo conversion I got some of my knowledge from someone not located In the US as we always have to do things differently here*  ¯\\_(ツ)_/¯
 * Enjoy!
