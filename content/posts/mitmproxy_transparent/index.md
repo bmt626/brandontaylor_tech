@@ -2,7 +2,6 @@
 title: "Mitmproxy transparent mode"
 date: 2022-10-12T13:11:36-04:00
 featured_image: "Pasted_image_20220906123918.png"
-draft: true
 ---
 
 Using mitmproxy in transparent mode is useful for applications that do not accept or ignore proxy settings.
