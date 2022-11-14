@@ -7,7 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Brandon Taylor</copyright>
-    <lastBuildDate>Tue, 28 Jun 2022 22:49:20 -0400</lastBuildDate><atom:link href="https://brandontaylor.tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Oct 2022 13:11:36 -0400</lastBuildDate><atom:link href="https://brandontaylor.tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mitmproxy transparent mode</title>
+      <link>https://brandontaylor.tech/posts/mitmproxy_transparent/</link>
+      <pubDate>Wed, 12 Oct 2022 13:11:36 -0400</pubDate>
+      
+      <guid>https://brandontaylor.tech/posts/mitmproxy_transparent/</guid>
+      <description>Using mitmproxy in transparent mode is useful for applications that do not accept or ignore proxy settings.
+This guide is based on a Ubuntu &amp;amp; Windows Machine the instructions of IP forwarding may differ slightly if using another distro.
+Linux Setup To enable ipv4 forwarding use the following command
+sudo sysctl -w net.ipv4.ip_forward=1 After running the above command you can check to ensure that forwarding is now enable by using the following command</description>
+    </item>
+    
+    <item>
+      <title>Adding Sources Without Apt Key</title>
+      <link>https://brandontaylor.tech/posts/adding-sources-without-apt-key/</link>
+      <pubDate>Wed, 12 Oct 2022 12:37:17 -0400</pubDate>
+      
+      <guid>https://brandontaylor.tech/posts/adding-sources-without-apt-key/</guid>
+      <description>The apt-key method of adding gpg keys for repos has been deprecated and will cause a warning message when doing an apt update Using kismets apt source repo I will show you how to take instructions that use the now deprecated apt-key method and change it to use the now supported method for adding repo gpg keys
+This is the directions from the kismet site to add their source repo for Debian / Ubuntu based distros I am using a Ubuntu 22.</description>
+    </item>
+    
     <item>
       <title>Mr. Phisher - THM</title>
       <link>https://brandontaylor.tech/posts/thm_mrphisher/</link>

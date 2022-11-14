@@ -3,10 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://brandontaylor.tech/</loc>
-    <lastmod>2022-06-28T22:49:20-04:00</lastmod>
+    <lastmod>2022-10-12T13:11:36-04:00</lastmod>
   </url><url>
     <loc>https://brandontaylor.tech/posts/</loc>
-    <lastmod>2022-06-28T22:49:20-04:00</lastmod>
+    <lastmod>2022-10-12T13:11:36-04:00</lastmod>
+  </url><url>
+    <loc>https://brandontaylor.tech/posts/mitmproxy_transparent/</loc>
+    <lastmod>2022-10-12T13:11:36-04:00</lastmod>
+  </url><url>
+    <loc>https://brandontaylor.tech/posts/adding-sources-without-apt-key/</loc>
+    <lastmod>2022-10-12T12:37:17-04:00</lastmod>
   </url><url>
     <loc>https://brandontaylor.tech/posts/thm_mrphisher/</loc>
     <lastmod>2022-06-28T22:49:20-04:00</lastmod>
