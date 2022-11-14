@@ -1,7 +1,7 @@
 baseURL = 'https://brandontaylor.tech/'
 languageCode = 'en-us'
 title = 'BrandonTaylor.tech'
-theme = 'ananke'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 copyright = 'Brandon Taylor'
 [params]
     show_reading_time = true
