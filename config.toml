@@ -22,4 +22,4 @@ url = "https://linkedin.com/in/bmtaylor"
 [[params.ananke_socials]]
 name = "mastodon"
 url = "https://infosec.exchange/@bmt626"
-rel = "me noopener"
+rel = "me"
