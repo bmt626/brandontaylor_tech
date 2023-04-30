@@ -18,3 +18,8 @@ url = "https://github.com/bmt626"
 [[params.ananke_socials]]
 name = "linkedin"
 url = "https://linkedin.com/in/bmtaylor"
+
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://infosec.exhange/@bmt626"
+rel = "me noopener"
