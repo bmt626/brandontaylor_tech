@@ -1,4 +1,4 @@
-baseURL = 'https://brandontaylor.tech/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'BrandonTaylor.tech'
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
